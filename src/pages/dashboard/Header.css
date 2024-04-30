@@ -1,0 +1,40 @@
+.header {
+    padding: 20px;
+    text-align: right;
+}
+
+.connect-wallet-button {
+    background-color: #e01414;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+    /* Butonun üzerine gelindiğinde arka plan rengi ve gölgeyi değiştir */
+    &:hover {
+        background-color: #e68900;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Butona basıldığında etkileşim efekti */
+    &:active {
+        background-color: #cc7a00;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.metamask-icon {
+    margin-right: 8px;
+}
+
+.button-text {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: white;
+}

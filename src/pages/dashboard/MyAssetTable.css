@@ -1,0 +1,56 @@
+.my-assets-search-all-columns {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.my-assets-search-column:focus {
+    border-color: #4CAF50;
+}
+
+.my-assets-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.my-assets-table th,
+.my-assets-table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.status.active {
+    color: green;
+}
+
+.status.inactive {
+    color: red;
+}
+
+.my-asset-trade-button {
+    padding: 5px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+#my-asset-buy-button {
+    background-color: #4CAF50;
+}
+
+.my-asset-button-icon {
+    margin-right: 5px;
+}

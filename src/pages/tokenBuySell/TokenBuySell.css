@@ -1,0 +1,226 @@
+.token-buy-sell-container {
+    background-color: #fff;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    position:absolute;
+    left: 30%;
+    top: 5%;
+    margin-left: -50px;
+    margin-top: -50px;
+    width: 50%;
+}
+
+.token-buy-sell-header {
+    background-color: #e01414;
+    padding: 1em;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.token-buy-sell-header .title {
+    font-size: 24px;
+}
+
+.token-buy-sell-info-box hr {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.token-buy-sell-info-box, .token-buy-sell-details, .token-buy-sell-accounts {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: -1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.token-buy-sell-details, .token-buy-sell-accounts {
+    margin-top: 1em;
+}
+
+.symbol-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.symbol-section .avatarCode {
+    background-color: #eee;
+    color: black;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.token-description .shortIsınCode {
+    font-weight: bold;
+}
+
+.token-description .longIsınCode {
+    color: #736262;
+    margin-top: 5px;
+}
+
+.price-section {
+    text-align: left;
+}
+
+.price-section .priceText {
+    margin-top: 10px;
+    color: #736262;
+}
+
+.price-section .priceValue {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.price-section .change, .price-section .percent {
+    display: inline-block;
+    margin-top: 5px;
+    color: #736262;
+}
+
+.price-section .change {
+    margin-right: 5px;
+}
+
+.saleable-section .containerSaleablePrice,
+.saleable-section .containerAmount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.saleable-section .containerSaleablePrice span{
+    font-weight: bold;
+}
+
+.saleable-section .containerAmount {
+    color: #736262;
+}
+
+.saleable-value {
+    display: flex;
+    align-items: baseline;
+}
+
+.saleable-value .integer-part {
+    font-weight: bold;
+}
+
+.saleable-value .decimal-part {
+    color: #736262;
+    margin-left: 2px;
+}
+
+.saleable-value .currency {
+    color: #736262;
+    margin-left: 2px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #736262;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border-radius: 4px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.form-group input{
+    font-weight: bold;
+    width: 95%;
+}
+
+.form-group select{
+    font-size: 12px;
+    color: #736262;
+    width: 100%;
+}
+
+.token-buy-sell-button {
+    background-color: #e01414;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 2em;
+}
+
+.token-buy-sell-accounts .form-control option {
+    font-size: 16px;
+    font-weight: normal;
+    color:#736262;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.error-message {
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.info-icon-error {
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+}
+
+.form-control.error {
+    border-color: red;
+}

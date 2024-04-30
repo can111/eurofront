@@ -1,0 +1,76 @@
+.my-portfolio-container {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position:absolute;
+    left: 30%;
+    top: 30%;
+}
+
+.my-portfolio-table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.my-portfolio-search-all-columns {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.my-portfolio-search-all-columns:focus {
+    border-color: #4CAF50;
+}
+
+.my-portfolio-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.my-portfolio-table th,
+.my-portfolio-table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.my-portfolio-action-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.my-portfolio-trade-button {
+    padding: 5px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.my-portfolio-button-icon {
+    margin-right: 5px;
+}
+
+#my-portfolio-buy-button {
+    background-color: #4CAF50;
+}
+
+#my-portfolio-sell-button {
+    background-color: #F44336;
+}
